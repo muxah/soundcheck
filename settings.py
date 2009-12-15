@@ -7,8 +7,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-     ('muxah', 'muxah@bigmir.net'),
-     ('m', 'm@m.com'),
+
 )
 
 MANAGERS = ADMINS
@@ -25,7 +24,7 @@ DATABASE_PORT = ''             # Set to empty string for default. Not used with 
 # although not all choices may be available on all operating systems.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'Europe/Kiev'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
@@ -54,7 +53,7 @@ STATIC_URL = '/media/static/'
 ADMIN_MEDIA_PREFIX = '/media/'
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = ')w$lzaxz4_uk9_%3(7z%ak5gbu)fcb@l^$8r%awq63^h1xj_i5'
+SECRET_KEY = ':>'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
